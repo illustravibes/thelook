@@ -1,0 +1,47 @@
+import fastify, { FastifyReply, FastifyRequest } from "fastify"
+
+interface IQuerystring {
+  username?: string
+  password?: string
+}
+
+interface IHeaders {
+  "h-custom"?: string
+}
+
+interface IReply {
+  success: boolean
+  user?: {
+    id: number
+    username: string
+    role: string
+  }
+  error?: string
+}
+
+const users = [
+  { id: 1, username: "admin", password: "admin123", role: "admin" },
+  { id: 2, username: "user", password: "user123", role: "user" },
+]
+
+const validateAuthInput = (username?: string, password?: string): string | null => {
+    if (!username) return 'Username is required'
+    if (!password) return 'Password is required'
+    if (username.length < 3) return 'Username must be at least 3 characters'
+    if (password.length < 6) return 'Password must be at least 6 characters'
+    return null
+  }  
+
+const server = fastify()
+
+server.get("/ping", async (request, reply) => {
+  return "pong\n"
+})
+
+server.listen({ port: 8080 }, (err, address) => {
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+  console.log(`Server listening at ${address}`)
+})

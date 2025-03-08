@@ -1,0 +1,147 @@
+import { tap } from 'node:test/reporters'
+import Fastify from 'fastify'
+import authRoutePlugin from '../../index'  // Asumsikan kode utama di-export sebagai plugin
+
+// Helper function untuk membuat server fastify dengan plugin auth route
+async function buildServer() {
+  const fastify = Fastify({
+    logger: false  // Matikan logger untuk testing
+  })
+  fastify.register(authRoutePlugin)
+  await fastify.ready()
+  return fastify
+}
+
+// Test suite
+test('Auth Route Tests', async (t) => {
+  // Test 1: Sukses login sebagai user biasa
+  t.test('Successful login as user', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        username: 'user',
+        password: 'user123'
+      }
+    })
+    
+    t.equal(response.statusCode, 200)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, true)
+    t.equal(payload.user.username, 'user')
+    t.equal(payload.user.role, 'user')
+    t.notOk(payload.user.password, 'Password should not be included in response')
+    
+    await fastify.close()
+  })
+  
+  // Test 2: Sukses login sebagai admin dengan header yang benar
+  t.test('Successful login as admin with correct header', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        username: 'admin',
+        password: 'admin123'
+      },
+      headers: {
+        'h-custom': 'secret-admin-key'
+      }
+    })
+    
+    t.equal(response.statusCode, 200)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, true)
+    t.equal(payload.user.username, 'admin')
+    t.equal(payload.user.role, 'admin')
+    
+    await fastify.close()
+  })
+  
+  // Test 3: Gagal login sebagai admin tanpa header yang benar
+  t.test('Failed login as admin without correct header', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        username: 'admin',
+        password: 'admin123'
+      }
+    })
+    
+    t.equal(response.statusCode, 403)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, false)
+    t.match(payload.error, /custom header/)
+    
+    await fastify.close()
+  })
+  
+  // Test 4: Gagal login dengan kredensial yang salah
+  t.test('Failed login with invalid credentials', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        username: 'user',
+        password: 'wrongpassword'
+      }
+    })
+    
+    t.equal(response.statusCode, 401)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, false)
+    t.match(payload.error, /Invalid username or password/)
+    
+    await fastify.close()
+  })
+  
+  // Test 5: Validasi input - username missing
+  t.test('Validation error - missing username', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        password: 'password123'
+      }
+    })
+    
+    t.equal(response.statusCode, 400)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, false)
+    t.match(payload.error, /Username is required/)
+    
+    await fastify.close()
+  })
+  
+  // Test 6: Validasi input - password terlalu pendek
+  t.test('Validation error - password too short', async (t) => {
+    const fastify = await buildServer()
+    
+    const response = await fastify.inject({
+      method: 'GET',
+      url: '/auth',
+      query: {
+        username: 'user',
+        password: '123'
+      }
+    })
+    
+    t.equal(response.statusCode, 400)
+    const payload = JSON.parse(response.payload)
+    t.equal(payload.success, false)
+    t.match(payload.error, /Password must be at least/)
+    
+    await fastify.close()
+  })
+})

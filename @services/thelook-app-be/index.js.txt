@@ -1,0 +1,76 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const fastify_1 = __importDefault(require("fastify"));
+const users = [
+    { id: 1, username: "admin", password: "admin123", role: "admin" },
+    { id: 2, username: "user", password: "user123", role: "user" },
+];
+const validateAuthInput = (username, password) => {
+    if (!username)
+        return 'Username is required';
+    if (!password)
+        return 'Password is required';
+    if (username.length < 3)
+        return 'Username must be at least 3 characters';
+    if (password.length < 6)
+        return 'Password must be at least 6 characters';
+    return null;
+};
+const server = (0, fastify_1.default)();
+server.get("/ping", async (request, reply) => {
+    return "pong\n";
+});
+server.listen({ port: 8080 }, (err, address) => {
+    if (err) {
+        console.error(err);
+        process.exit(1);
+    }
+    console.log(`Server listening at ${address}`);
+});
+server.get('/auth', async (request, reply) => {
+    try {
+        const { username, password } = request.query;
+        const customHeader = request.headers['h-custom'];
+        // Log request untuk debugging (bisa dihapus di production)
+        request.log.info({ username, customHeader }, 'Auth request received');
+        // Validasi input
+        const validationError = validateAuthInput(username, password);
+        if (validationError) {
+            return reply.code(400).send({
+                success: false,
+                error: validationError
+            });
+        }
+        // Cek autentikasi
+        const user = users.find(u => u.username === username && u.password === password);
+        if (!user) {
+            return reply.code(401).send({
+                success: false,
+                error: 'Invalid username or password'
+            });
+        }
+        // Verifikasi header jika diperlukan
+        if (user.role === 'admin' && customHeader !== 'secret-admin-key') {
+            return reply.code(403).send({
+                success: false,
+                error: 'Missing or invalid custom header for admin access'
+            });
+        }
+        // Sukses - kembalikan data user (tanpa password)
+        const { password: _, ...userWithoutPassword } = user;
+        return reply.code(200).send({
+            success: true,
+            user: userWithoutPassword
+        });
+    }
+    catch (err) {
+        request.log.error(err, 'Error processing auth request');
+        return reply.code(500).send({
+            success: false,
+            error: 'Internal server error'
+        });
+    }
+});

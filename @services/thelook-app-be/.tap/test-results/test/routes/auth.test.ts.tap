@@ -1,0 +1,23 @@
+TAP version 14
+# Subtest: Auth Route Tests
+    # Subtest: Successful login as user
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - Password should not be included in response
+        1..5
+    ok 1 - Successful login as user # time=66.318ms
+    
+    # Subtest: Successful login as admin with correct header
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        1..4
+    ok 2 - Successful login as admin with correct header # time=27.219ms
+    
+    1..2
+ok 1 - Auth Route Tests # time=111.916ms
+
+1..1

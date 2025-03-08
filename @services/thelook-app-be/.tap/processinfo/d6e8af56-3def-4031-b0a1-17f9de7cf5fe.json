@@ -1,0 +1,245 @@
+{
+  "date": "2025-03-08T12:50:04.586Z",
+  "argv": [
+    "/home/developer/.nvm/versions/node/v18.20.7/bin/node",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/test/routes/auth.test.ts"
+  ],
+  "execArgv": [
+    "--import=file:///home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+typescript@3.1.0_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__2bjm27yrxu56yn54d2ziodg73e/node_modules/@tapjs/typescript/dist/esm/import.mjs",
+    "--import=file:///home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+processinfo@3.1.8/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+processinfo@3.1.8/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/home/developer/sch/project/thelook/@services/thelook-app-be",
+  "pid": 1369312,
+  "ppid": 1369291,
+  "parent": null,
+  "uuid": "d6e8af56-3def-4031-b0a1-17f9de7cf5fe",
+  "files": [
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/test/routes/auth.test.ts",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/read-json.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/walk-up-path@4.0.0/node_modules/walk-up-path/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/glob.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/has-magic.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/ignore.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/brace-expansion@2.0.1/node_modules/brace-expansion/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/ast.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/escape.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/unescape.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/pattern.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/walker.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/brace-expressions.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/lru-cache@11.0.2/node_modules/lru-cache/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minipass@7.1.2/node_modules/minipass/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/processor.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/index.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/commonjs/service-key.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/errors.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/to-path.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/app.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/plugins/auth-plugin.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/routes/auth/index.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/routes/auth/handler.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/utils/validator.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/services/auth-service.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/models/user.ts",
+    "/home/developer/sch/project/thelook/@services/thelook-app-be/src/routes/auth/schema.ts"
+  ],
+  "sources": {
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/walk-up-path@4.0.0/node_modules/walk-up-path/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/walk-up-path@4.0.0/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/glob.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/glob.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/has-magic.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/has-magic.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/ignore.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/ignore.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/ast.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/ast.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/escape.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/escape.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/unescape.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/path-scurry@2.0.0/node_modules/path-scurry/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/pattern.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/pattern.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/walker.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/walker.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minimatch@10.0.1/node_modules/minimatch/src/brace-expressions.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/lru-cache@11.0.2/node_modules/lru-cache/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/lru-cache@11.0.2/node_modules/lru-cache/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/minipass@7.1.2/node_modules/minipass/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/minipass@7.1.2/node_modules/minipass/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/dist/esm/processor.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/glob@11.0.1/node_modules/glob/src/processor.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/index.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/index.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/service-key.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/dist/commonjs/service-key.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+mock@4.0.1_@tapjs+core@4.0.1_@types+node@22.13.10_react-dom@18.3.1_react@18.3.1__react@18.3.1_/node_modules/@tapjs/mock/src/service-key-cjs.cts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/@tapjs+stack@4.0.0/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/errors.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/home/developer/sch/project/thelook/node_modules/.pnpm/resolve-import@2.0.0/node_modules/resolve-import/src/resolve-package-import.ts"
+    ]
+  },
+  "root": "d6e8af56-3def-4031-b0a1-17f9de7cf5fe",
+  "externalID": "test/routes/auth.test.ts",
+  "code": 0,
+  "signal": null,
+  "runtime": 585.546364
+}
